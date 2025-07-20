@@ -10,7 +10,7 @@ server:
 spring:
   datasource:
     username: root
-    password: 123456
+    password: 5185021
     url: jdbc:mysql://47.122.26.159:3306/s-pay-mall?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialSize: 5
@@ -59,7 +59,8 @@ redis:
   sdk:
     config:
       host: 47.122.26.159
-      port: 16379
+      port: 6379
+      password: 5185021
       pool-size: 10
       min-idle-size: 5
       idle-timeout: 30000
